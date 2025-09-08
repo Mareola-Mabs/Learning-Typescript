@@ -5,6 +5,8 @@ import { setupCounter } from './counter.ts'
 
 import './type-annotations.ts'
 import './union-type.ts'
+import './objects.ts'
+import './functions.ts'
 
 
 
