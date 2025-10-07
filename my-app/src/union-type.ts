@@ -3,7 +3,7 @@ let value:string | number | boolean = 20
 
 value = 'aNewValue' // Works
 
-value = 'true' // Also works
+value = true // Also works
 
 console.log(value) // true
 
