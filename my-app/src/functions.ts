@@ -93,3 +93,18 @@ let configurations = {
 }
 
 processData("Hello", configurations)
+
+
+function createStudents(student:{id: number; name: string}): void{
+    console.log(`Welcome to the course ${student.name.toUpperCase()}`)
+}
+
+let student = {
+    id: 1,
+    name: "Mareola",
+    email: "bulun1001@gmail.com"
+}
+
+createStudents(student) // Works even when "email" wasn't specified in parameter type
+
+// createStudents({id: 1,name: "Mareola", email: "bulun1001@gmail.com"}) // Won't work for inline Objects
