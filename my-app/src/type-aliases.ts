@@ -28,7 +28,7 @@ type Staff = Employee | Manager
 
 const printStaffDetails = (param:Staff):void =>{
     if ('employees' in param){
-        console.log(`${param.name} is a Manager, the manage ${param.employees.length} employee(s)`)
+        console.log(`${param.name} is a Manager, they manage ${param.employees.length} employee(s)`)
     }
     else{
         console.log(`${param.name} is an Employee and in department ${param.department}`)
