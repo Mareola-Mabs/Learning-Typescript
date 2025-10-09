@@ -12,6 +12,7 @@ import './intersection-type.ts'
 import './interface-types.ts'
 import './interface-merging.ts'
 import '../challenges/02.ts'
+import './tuples.ts'
 
 
 
