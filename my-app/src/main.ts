@@ -10,6 +10,8 @@ import './functions.ts'
 import './type-aliases.ts'
 import './intersection-type.ts'
 import './interface-types.ts'
+import './interface-merging.ts'
+import '../challenges/02.ts'
 
 
 
