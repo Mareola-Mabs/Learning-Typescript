@@ -14,6 +14,7 @@ import './interface-merging.ts'
 import '../challenges/02.ts'
 import './tuples.ts'
 import './enums.ts'
+import './type-assertions.ts'
 
 
 
