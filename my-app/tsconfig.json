@@ -10,16 +10,17 @@
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
+    "moduleDetection": "force", // Allow Redeclaration/Reuse of Variable Names in another File
     "noEmit": true,
 
     /* Linting */
     "strict": true,
     "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedParameters": false, // Allow unused variables
     "erasableSyntaxOnly": false,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "allowJs": true // Allow JS Modules to be Imported
   },
   "include": ["src"]
 }
