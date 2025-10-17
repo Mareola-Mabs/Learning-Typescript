@@ -19,7 +19,8 @@ import { setupCounter } from './counter.ts'
 // import './type-never.ts'
 // import './import.ts'
 // import './type-guarding.ts'
-import './type-predicate.ts'
+// import './type-predicate.ts'
+import './discriminated-unions.ts'
 
 
 
