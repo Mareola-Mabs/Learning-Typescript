@@ -18,7 +18,8 @@ import { setupCounter } from './counter.ts'
 // import './type-unknown.ts'
 // import './type-never.ts'
 // import './import.ts'
-import './type-guarding.ts'
+// import './type-guarding.ts'
+import './type-predicate.ts'
 
 
 
