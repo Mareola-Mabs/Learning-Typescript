@@ -20,7 +20,9 @@ import { setupCounter } from './counter.ts'
 // import './import.ts'
 // import './type-guarding.ts'
 // import './type-predicate.ts'
-import './discriminated-unions.ts'
+// import './discriminated-unions.ts'
+import './generics.ts'
+
 
 
 
