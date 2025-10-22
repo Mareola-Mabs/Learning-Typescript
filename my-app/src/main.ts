@@ -22,7 +22,8 @@ import { setupCounter } from './counter.ts'
 // import './type-predicate.ts'
 // import './discriminated-unions.ts'
 // import './generics.ts'
-import './fetching-data.ts'
+// import './fetching-data.ts'
+import './fetching-with-zod.ts'
 
 
 

@@ -8,6 +8,7 @@ type Tour = {
     price: string
 }
 
+
 async function fetchData(url: string): Promise<Tour[]>{
     try{
         const response = await fetch(url)
@@ -15,6 +16,7 @@ async function fetchData(url: string): Promise<Tour[]>{
             throw new Error(`HTTP error! status:${response.status}`)
         }
         const data:Tour[] = await response.json()
+        
         return data
     }
     catch(err){
@@ -29,7 +31,5 @@ async function fetchData(url: string): Promise<Tour[]>{
 const tours = await fetchData(url)
 
 tours.map(item => console.log(item.name))
-
-
 
 
