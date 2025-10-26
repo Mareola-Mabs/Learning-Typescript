@@ -100,6 +100,6 @@ class NewPerson implements IPerson{
     }
 }
 
-const hipster = new Person('Shake and Bake', 100)
+const hipster = new NewPerson('Shake and Bake', 100)
 
 console.log(hipster)
