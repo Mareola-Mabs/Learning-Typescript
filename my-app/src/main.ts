@@ -23,9 +23,8 @@ import { setupCounter } from './counter.ts'
 // import './discriminated-unions.ts'
 // import './generics.ts'
 // import './fetching-data.ts'
-import './fetching-with-zod.ts'
-
-
+// import './fetching-with-zod.ts'
+import './class-syntaxing.ts'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
