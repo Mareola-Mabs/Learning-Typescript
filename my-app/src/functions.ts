@@ -108,3 +108,24 @@ let student = {
 createStudents(student) // Works even when "email" wasn't specified in parameter type
 
 // createStudents({id: 1,name: "Mareola", email: "bulun1001@gmail.com"}) // Won't work for inline Objects
+
+
+// Function Types and Function return in variables
+let combineValues: Function // Accepts generic function
+
+function addTwoNums(n1:number, n2:number): number{
+    return n1 + n2
+}
+
+combineValues = addTwoNums // Works, but will accept any function since the type has been set as a function
+
+
+let newCombinedValue : (num1: number, num2: number) => number // Explicitly stated
+
+newCombinedValue = addTwoNums
+
+function concatStrings(s1: string, s2: string): string{
+    return s1 + s2
+}
+
+// newCombinedValue = concatStrings // Won't work
