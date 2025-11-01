@@ -22,5 +22,8 @@
     "noUncheckedSideEffectImports": true,
     "allowJs": true // Allow JS Modules to be Imported
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "node_modules"
+  ]
 }
